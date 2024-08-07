@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: #212121;
+  color: #fff;
+  font-family: Helvetica;
+}
+aside{
+width: 246.5px;
+height: 100vh;
+margin-top: 44px;
+margin-left: 18px;
+/* background-color: rgb(108, 230, 104); */
+}
+ul, li{
+  list-style: none;
+}
+.sidebar-menu img{
+  gap: 12px;
+}
+.side-heading{
+padding: 20px;
+}
+.side-heading h2{
+display: flex;
+font-family: Helvetica;
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+text-align: left;
+gap: 12px;
+border-bottom: 2px solid wheat;
+} 
